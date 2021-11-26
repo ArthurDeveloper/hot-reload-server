@@ -1,6 +1,6 @@
 {
-  "name": "@arthurdeveloper/hot-reload-server",
-  "version": "1.0.0",
+  "name": "hot-reload-tool",
+  "version": "1.0.4",
   "description": "A server with live reload made with nodejs.",
   "main": "index.js",
   "author": "ArthurDev",
@@ -8,24 +8,28 @@
   "dependencies": {
     "express": "^4.17.1",
     "node-html-parser": "^5.1.0",
+    "shelljs": "^0.8.4",
     "socket.io": "^4.4.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "hot-reload-tool": "bin/run.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArthurDeveloper/hot-reload-server.git"
+    "url": "git+https://github.com/ArthurDeveloper/hot-reload-tool.git"
   },
   "keywords": [
     "Hot",
     "reload",
     "server",
-    "live"
+    "live",
+    "cli"
   ],
   "bugs": {
-    "url": "https://github.com/ArthurDeveloper/hot-reload-server/issues"
+    "url": "https://github.com/ArthurDeveloper/hot-reload-tool/issues"
   },
-  "homepage": "https://github.com/ArthurDeveloper/hot-reload-server#readme"
+  "homepage": "https://github.com/ArthurDeveloper/hot-reload-tool#readme"
 }

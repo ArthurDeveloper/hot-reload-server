@@ -1,3 +1,3 @@
 const path = require('path');
 
-module.exports = path.join(__dirname, process.argv[2] ?? '.');
+module.exports = path.join(process.cwd(), process.argv[2] ?? '.');

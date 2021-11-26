@@ -1,6 +1,6 @@
 {
   "name": "hot-reload-tool",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A server with live reload made with nodejs.",
   "main": "index.js",
   "author": "ArthurDev",

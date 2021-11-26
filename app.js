@@ -29,6 +29,6 @@ function injectScript(req, res, next) {
 	next();
 }
 
-app.use('/', injectScript, express.static('test-files'));
+app.use('/', injectScript, express.static(defaultPath));
 
 module.exports = app;
